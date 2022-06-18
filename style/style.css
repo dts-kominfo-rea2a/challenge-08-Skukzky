@@ -1,0 +1,49 @@
+:root {
+    --body-color: #D6D5A8;
+    --text-color: black;
+}
+
+* {
+    box-sizing: border-box;
+}
+body {
+    background: var(--body-color);
+}
+
+#app{
+    display: flex;
+    margin: 20px auto;
+    background-color: white;
+    height: 55vh;
+    width: 400px;
+    padding: 20px 5px;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+#todo-title{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    background-color: var(--body-color);
+    padding: 0 20px;
+    
+}
+#todo-subtitle{
+    font-size:15px;
+}
+#todo-input{
+    width: 200px;
+}
+
+#todo-output{
+    width:300px
+}
+
+ul {
+    color: var(--text-color);
+}
